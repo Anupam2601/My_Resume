@@ -5,6 +5,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Anupam Upadhyay</title>
         <link rel="icon" type="image/x-icon" href="./download.png">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
         <style>
             body{
                 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -20,7 +22,7 @@
                 font-size: 50px;
             }
             .project-work{
-                color:blue;
+                color: #3559E0;
             }
             .sub-container{
                 display: flex;
@@ -36,8 +38,20 @@
             }
             .Project-info{
                 margin-left: 25px;
-                text-align: justify;
             }
+            .icon-square {
+            width: 3rem;
+            height: 2.5rem;
+            border-radius: .75rem;
+            }
+            .featured-heading{
+                color: azure !important;
+                font-size: 30px !important;
+            }
+            .head-para{
+                margin-left: 15px;
+            }
+            
         </style>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -45,6 +59,7 @@
     </head>
     <body>
         <h1 class="center-cont heading">Anupam Upadhyay</h1>
+        <br>
         <p class="center-cont">
             Aspiring Software <br />
             Developer 
@@ -52,8 +67,11 @@
         <div class="sub-container">
             <img class="profile-picture" src="./Profile_Picture.jpg" alt="My Profile Picture">
         </div>
+        <br>
+        <br>
+        <br>
         <h2>Summary</h2>
-        <p>Proficient in front-end web development technologies including HTML5, CSS3, and JavaScript, with hands-on experience in implementing responsive web designs using Bootstrap framework. 
+        <p class="head-para">Proficient in front-end web development technologies including HTML5, CSS3, and JavaScript, with hands-on experience in implementing responsive web designs using Bootstrap framework. 
             Skilled in leveraging the Document Object Model (DOM) to dynamically manipulate web content and improve user interaction. 
             Familiar with the basics of UI/UX designing. 
             Familiarity with Structured Query Language (SQL) for database management and Crystal Reports for generating comprehensive data reports. 
@@ -74,7 +92,7 @@
             <li><a class="project-work" href="https://anupam2601.github.io/dev/">Project 4. - Dev Company's Website</a></li>
             <li><a class="project-work" href="https://anupam2601.github.io/Telepathy-WiFi/">Project 5. - WiFi Company's Pricing Table</a></li>
         </ul>
-        <!-- <h2>Project Information</h2>
+        <h2>Project Information</h2>
         <div class="Project-info">
             <p>
                 Project 1. Drum Kit -  
@@ -113,10 +131,10 @@
                 <br /> 
                 <p>URL :-<a class="project-work" href="https://anupam2601.github.io/Telepathy-WiFi/">https://anupam2601.github.io/Telepathy-WiFi/</a></p> 
                 <br />
-                INFO :- Made using <span class="yell-1">HTML</span> and pure <span class="yell-1">CSS</span>  with <span class="yell-1">Responsive Web Design</span> attained without using 'Bootstrap and the 12 column layout system', but by CSS alone using <span class="yell-1">"CSS- Grid" </span>, <span class="yell-1">"CSS- Flexbox"</span> & <span class="yell-1">"CSS- Media Queries"</span> .  A pricing template for a WI-Fi Company for it's customers.
+                INFO :- Made using <span class="yell-1">HTML</span> and pure <span class="yell-1">CSS</span>  with <span class="yell-1">Responsive Web Design</span> attained without using 'Bootstrap and the 12 column layout system', but by CSS alone using <span class="yell-1">"CSS- Grid" </span>, <span class="yell-1">"CSS- Flexbox"</span> & <span class="yell-1">"CSS- Media Queries"</span> . A pricing template for a WI-Fi Company for it's customers.
             </p>
             <br>
-        </div> -->
+        </div>
 
 
         <hr />
@@ -148,6 +166,48 @@
                 </ol>
             </ul>
         </div>
-        <hr />
+        <hr>
+        <section class="contact">
+            <h2>Contact Me</h2>
+            <div class="container px-4 py-5" id="hanging-icons">
+                <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+                  <div class="col d-flex align-items-start">
+                    <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="25" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16">
+                            <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z"/>
+                        </svg>
+                    </div>
+                    <div>
+                      <h3 class="fs-2 text-body-emphasis featured-heading">Mail Id</h3>
+                      <p>anupam.upad.1@gmail.com</p>
+                    </div>
+                  </div>
+                  <div class="col d-flex align-items-start">
+                    <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="25" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"/>
+                        </svg>
+                    </div>
+                    <div>
+                      <h3 class="fs-2 text-body-emphasis featured-heading">Contact Num.</h3>
+                      <p>989- 202- 6893</p>
+                    </div>
+                  </div>
+                  <div class="col d-flex align-items-start">
+                    <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="25" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                            <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6"/>
+                        </svg>
+                    </div>
+                    <div>
+                      <h3 class="fs-2 text-body-emphasis featured-heading feature-head">Location</h3>
+                      <p>Mira Road, Mumbai, Maharashtra</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </section>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     </body>
 </html>
